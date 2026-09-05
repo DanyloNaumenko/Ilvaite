@@ -1,6 +1,6 @@
 using Jarlite.Core.User;
 
-namespace Jarlite.Application.Auth.Local;
+namespace Jarlite.Infrastructure.Auth.Local;
 
 public class PasswordCredential
 {

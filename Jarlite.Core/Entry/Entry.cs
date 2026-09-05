@@ -1,6 +1,4 @@
-using Jarlite.Core.EntryTypes;
-
-namespace Jarlite.Core;
+namespace Jarlite.Core.Entry;
 
 public abstract class Entry
 {

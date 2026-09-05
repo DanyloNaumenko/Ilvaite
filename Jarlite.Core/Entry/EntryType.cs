@@ -1,4 +1,4 @@
-namespace Jarlite.Core.EntryTypes;
+namespace Jarlite.Core.Entry;
 
 public enum EntryType
 {

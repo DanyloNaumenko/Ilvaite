@@ -8,5 +8,5 @@ public class Topic
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
 
-    public List<Entry> Entries { get; set; } = new List<Entry>();
+    public List<Entry.Entry> Entries { get; set; } = new List<Entry.Entry>();
 }

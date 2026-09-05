@@ -1,6 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite", "Jarlite\Jarlite.csproj", "{7EB31AFA-0BE6-4639-B65E-CF6630F65A58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.WebAPI", "Jarlite.WebAPI\Jarlite.WebAPI.csproj", "{7EB31AFA-0BE6-4639-B65E-CF6630F65A58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D} = {59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F} = {8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.ConsoleView", "Jarlite.ConsoleView\Jarlite.ConsoleView.csproj", "{9758E1EF-7AEC-418C-ACD1-B7B9136E6E2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D} = {59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F} = {8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.Application", "Jarlite.Application\Jarlite.Application.csproj", "{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F} = {8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.Data", "Jarlite.Data\Jarlite.Data.csproj", "{FBA23932-4874-4C5B-81A1-0735687ACE80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F} = {8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D} = {59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.Core", "Jarlite.Core\Jarlite.Core.csproj", "{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarlite.Infrastructure", "Jarlite.Infrastructure\Jarlite.Infrastructure.csproj", "{2131F677-1797-4792-8C64-4E53802303F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +37,25 @@ Global
 		{7EB31AFA-0BE6-4639-B65E-CF6630F65A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB31AFA-0BE6-4639-B65E-CF6630F65A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB31AFA-0BE6-4639-B65E-CF6630F65A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9758E1EF-7AEC-418C-ACD1-B7B9136E6E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9758E1EF-7AEC-418C-ACD1-B7B9136E6E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9758E1EF-7AEC-418C-ACD1-B7B9136E6E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9758E1EF-7AEC-418C-ACD1-B7B9136E6E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B41AF5-28DF-4EAF-97B8-1EAC1D0C2D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA23932-4874-4C5B-81A1-0735687ACE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA23932-4874-4C5B-81A1-0735687ACE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA23932-4874-4C5B-81A1-0735687ACE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA23932-4874-4C5B-81A1-0735687ACE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A824BDE-6BC3-4CFC-9B58-28C5D719DD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2131F677-1797-4792-8C64-4E53802303F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2131F677-1797-4792-8C64-4E53802303F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2131F677-1797-4792-8C64-4E53802303F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2131F677-1797-4792-8C64-4E53802303F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

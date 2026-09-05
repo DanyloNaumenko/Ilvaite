@@ -1,6 +1,8 @@
-namespace Jarlite.Application.Auth.Local;
+using Jarlite.Application.Auth.Abstractions;
 
-public class LocalAuthenticationProvider
+namespace Jarlite.Infrastructure.Auth.Local;
+
+public class LocalAuthenticationProvider : IAuthenticationProvider
 {
     private readonly PasswordCredential _passwordCredential;
 
