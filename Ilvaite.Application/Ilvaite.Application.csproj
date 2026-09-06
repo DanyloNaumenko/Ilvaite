@@ -4,6 +4,11 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Ilvaite.Application</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ilvaite.Core\Ilvaite.Core.csproj" />
+    </ItemGroup>
 
 </Project>

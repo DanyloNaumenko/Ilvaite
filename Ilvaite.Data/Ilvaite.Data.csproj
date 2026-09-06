@@ -4,15 +4,12 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Ilvaite.Data</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Auth\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Jarlite.Application\Jarlite.Application.csproj" />
-      <ProjectReference Include="..\Jarlite.Core\Jarlite.Core.csproj" />
+      <ProjectReference Include="..\Ilvaite.Application\Ilvaite.Application.csproj" />
+      <ProjectReference Include="..\Ilvaite.Core\Ilvaite.Core.csproj" />
     </ItemGroup>
 
 </Project>

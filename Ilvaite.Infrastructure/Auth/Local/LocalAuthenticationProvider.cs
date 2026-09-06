@@ -1,6 +1,6 @@
 using Jarlite.Application.Auth.Abstractions;
 
-namespace Jarlite.Infrastructure.Auth.Local;
+namespace Ilvaite.Infrastructure.Auth.Local;
 
 public class LocalAuthenticationProvider : IAuthenticationProvider
 {
